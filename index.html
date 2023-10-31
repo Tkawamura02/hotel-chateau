@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="milestone" content="Portfolio">
+  <!-- TODO: Replace this with your title -->
+  <title>Chateau Hotel</title>
+  <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Custom styles (these can extend the default Bootstrap styles) -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- TODO: Paste Navbar code and customize links -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #200101;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/chateau-hotel-logo.png" alt="brand logo" width="90"></a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="collapse">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Accommodations</a>
+          <a class="nav-link" href="#">Experiences</a>
+          <a class="nav-link" href="#">Pricing</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero section -->
+  <section id="hero-section">
+    <div class="hero-title">
+      <h2>Rated #1 Luxury Resort</h2>
+    </div>
+  </section>
+
+  <!-- Mission section -->
+  <section id="mission-section">
+    <div class="mission-title">
+      <h5 class="mission-text-1">WELCOME</h5>
+      <h2 class="mission-text-2">Transform your travels with us</h2>
+      <h5 class="mission-text-3">enjoy the timeless experience at this eye-catching and unique resort</h5>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <span class="contact-section-text">
+      <h5 class="contact-text-1">OUR LOCATION</h5>
+      <h2 class="contact-text-2">GETTING HERE</h2>
+      <p class="contact-text-3">
+        Chateau Hotel, a Luxury Resort
+        123 Main Street, Anytown, Anystate, USA, 12345
+      </p>
+      <p class="contact-text-4">Tel: +1 123-456-7890</p>
+    </span>
+    <span class="contact-section-img"></span>
+  </section>
+
+  <!-- About Us section -->
+  <section id="about-section">
+    <div class="about-title">
+      <h5 class="about-text-1">OUR STORY</h5>
+      <p class="about-text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Justo nec ultrices dui sapien eget mi proin. Non blandit massa enim nec dui
+        nunc mattis enim ut. Nisl rhoncus mattis rhoncus urna. Augue neque gravida in fermentum et sollicitudin ac orci
+        phasellus. Sed cras ornare arcu dui vivamus arcu felis. Purus in massa tempor nec feugiat. Nibh nisl condimentum
+        id venenatis a condimentum vitae. Mauris cursus mattis molestie a iaculis at erat. Etiam dignissim diam quis
+        enim. Tincidunt vitae semper quis lectus nulla at volutpat diam ut. Velit egestas dui id ornare arcu odio ut sem
+        nulla. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Purus sit amet luctus venenatis.
+        Mus mauris vitae ultricies leo integer malesuada nunc vel risus. Mattis ullamcorper velit sed ullamcorper morbi
+        tincidunt ornare massa eget. Id diam vel quam elementum pulvinar etiam non quam lacus. Nulla facilisi nullam
+        vehicula ipsum a. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Morbi non
+        arcu risus quis.</p>
+      <p class="about-text-3">At elementum eu facilisis sed odio morbi quis. Lectus vestibulum mattis ullamcorper velit.
+        Fames ac turpis egestas integer eget aliquet nibh praesent. Enim neque volutpat ac tincidunt vitae semper quis.
+        Magna sit amet purus gravida. Eget nullam non nisi est sit. In metus vulputate eu scelerisque felis imperdiet
+        proin. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Ultricies tristique nulla aliquet
+        enim. Et malesuada fames ac turpis egestas sed.</p>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section" class="d-flex flex-wrap justify-content-between align-items-center">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img src="img/chateau-hotel-logo.png" alt="brand logo" width="90">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2023 Chateau Hotel, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi bi-twitter" width="24" height="24">
+            <use xlink:href="#twitter"></use>
+          </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi bi-instagram" width="24" height="24">
+            <use xlink:href="#instagram"></use>
+          </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi bi-facebook" width="24" height="24">
+            <use xlink:href="#facebook"></use>
+          </svg></a></li>
+    </ul>
+  </section>
+
+  <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+  		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  	-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
